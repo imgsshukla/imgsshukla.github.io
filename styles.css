@@ -1,9 +1,9 @@
 /* Root Variables */
 :root {
-    --primary-color: #FFD700;
-    --primary-dark: #DAA520;
-    --secondary-color: #FFA500;
-    --accent-color: #FF8C00;
+    --primary-color: #D4AF37;
+    --primary-dark: #B8860B;
+    --secondary-color: #FFD700;
+    --accent-color: #DAA520;
     --dark-bg: #0f0f1e;
     --card-bg: #1a1a2e;
     --text-primary: #ffffff;
@@ -508,16 +508,18 @@ section {
     text-transform: uppercase;
     letter-spacing: 1px;
     top: 5px;
+    white-space: nowrap;
+    width: auto;
 }
 
 .timeline-item:nth-child(odd) .timeline-date {
-    right: calc(50% + 70px);
+    right: calc(50% + 100px);
     text-align: right;
     left: auto;
 }
 
 .timeline-item:nth-child(even) .timeline-date {
-    left: calc(50% + 70px);
+    left: calc(50% + 100px);
     text-align: left;
     right: auto;
 }
@@ -987,7 +989,10 @@ section {
     }
 
     .timeline-date {
-        display: none;
+        position: static;
+        display: block;
+        margin-bottom: 10px;
+        white-space: nowrap;
     }
 
     .timeline-content {
