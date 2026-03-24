@@ -1,0 +1,23 @@
+# GitHub Pages Configuration
+theme: jekyll-theme-minimal
+title: Gaurav Shukla - Data Engineer
+description: Professional Portfolio - Data Engineer with 6+ years of expertise in building scalable data platforms
+show_downloads: false
+
+# Markdown processor
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+
+# Output
+output: web
+future: false

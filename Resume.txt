@@ -1,0 +1,78 @@
+Gaurav Shukla
+Email: imgsshukla@gmail.com | Phone: +91-8080545470 | LinkedIn: https://www.linkedin.com/in/imgauravs  | Location: Pune, India
+PROFESSIONAL SUMMARY
+Results-focused Data Engineer with 6+ years of hands-on expertise in designing and operating end-to-end data platforms. Expert in PySpark, Hadoop and Databricks for batch processing, Apache Airflow and DBT for ETL orchestration, and AWS (S3, EMR, Glue, MWAA, Redshift) for scalable data warehousing. Proficient in building low-latency streaming architectures with Kafka and EMR, enforcing data quality through automated frameworks. Skilled at leveraging Generative AI (GenAI)-powered Prompt-to-SQL interfaces and advanced data modeling to deliver analytics-ready datasets that drive business insights.
+TECHNICAL SKILLS
+Languages: Python, PySpark, SQL
+Soft Skills: Hadoop, Apache Airflow, Databricks, Machine Learning, Deep Learning, DBT (Data Build Tool), DataGo, GIT, REST APIs
+Cloud Platforms & DevOps: AWS Applications (S3, EMR, Glue, Kinesis, Athena, CloudWatch, MWAA), Azure, CI/CD, Jenkins
+Data Storage & Warehousing: Amazon Redshift, Oracle, PostgreSQL
+BI & Visualization: Tableau, Power BI
+PROFESSIONAL EXPERIENCE
+Senior Software Engineer | Wipro Limited – Client: UBS
+Jan 2026 – Present
+•	Designing and building high-performance, scalable microservices using Python and FastAPI, deployed on Azure, to support enterprise-level banking applications.
+•	Implementing Generative AI solutions using LangChain and LangGraph within the backend architecture to modernize and automate banking data management workflows.
+•	Integrating PostgreSQL and Databricks to streamline data pipelines, specifically targeting the reduction of manual processing efforts in financial services.
+Data Engineer | Tata Consultancy Services (TCS) – Client: Singapore Airlines
+Jun 2023 – Jan 2026
+•	Designed end to end PySpark ETL pipelines on AWS EMR and Glue, optimizing partitioning and memory to boost ingestion throughput by 40% and migrating Oracle workflows to Redshift Spectrum to cut storage costs by 30%.
+•	Architected Apache Airflow DAGs with Jenkins/Git for zero-downtime deployments and rollbacks, slashing release time by 60%.
+•	Engineered streaming on AWS EMR (MSK + Spark Structured Streaming), ingesting 1 TB+ daily into Amazon Redshift with sub-second latency and powering live Tableau dashboards.
+•	Tuned Amazon Redshift (distribution/sort keys, adaptive caching), improving complex query performance by 25%.
+•	Developed a Python-based Airflow data-quality framework, reducing errors by 30%.
+•	Ingested and integrated data from diverse sources including Amazon S3, Oracle, MySQL, and SFTP servers to build unified, analytics-ready datasets.
+•	Led a Generative AI initiative using inhouse LLM model to translate natural-language prompts into optimized SQL, halving ad-hoc query turnaround time.
+Business Operations Analyst | Aditadv Tech Pvt Ltd
+Jan 2023 – Mar 2023
+•	Designed and deployed two interactive churn-rate dashboards in Zoho Analytics (Azure SaaS environment), enabling stakeholder segmentation by customer type, region, and revenue impact in the healthcare domain.
+•	Built and monitored ETL pipelines in Azure (SQL Database, Data Factory), ensuring 99%+ data accuracy through automated validation with Pozative and Zoho tools.
+•	Partnered directly with the CEO, VPs, and cross-functional teams to translate business requirements into KPI reports, accelerating decision-making on revenue growth and customer retention.
+Analytics Engineer | Flex India – Client: Nokia
+Jan 2020 – Nov 2022
+•	Engineered end-to-end ETL pipelines using AWS Glue, Amazon S3, and Python to migrate 2B+ records from BAAN ERP into Amazon Redshift with zero data loss.
+•	Automated data ingestion workflows via AWS Lambda and Glue jobs, cutting manual processing effort by 40% and boosting pipeline reliability.
+•	Developed real-time Tableau dashboards for supply-chain analytics (inventory, procurement, logistics), delivering insights that drove approximately 30% logistics cost savings during COVID.
+•	Implemented Git-based version control and CI/CD for ETL deployments (Jenkins), ensuring seamless updates, rollback capability, and environment consistency.
+PROJECTS
+Agentic AI Microservices Architecture: Wipro (Client: UBS) - Jan 2026 – Present
+•	Developing the foundational backend services using FastAPI and LangGraph for a new Agentic AI project, enabling autonomous AI agents to securely interact with and process complex banking data.
+•	Creating modular Python components with LangChain that allow Gen AI models to seamlessly interface with financial datasets in Databricks and PostgreSQL for automated, real-time analytics.
+•	Engineering initial, Azure-hosted solutions designed to replace routine, manual data management tasks with intelligent, agent-driven automation.
+Development & Optimization of ETL Pipelines: TCS (Client: Singapore Airlines) - Jun 2023 – Jan 2026
+•	Designed and optimized 15+ batch and streaming ETL pipelines on AWS Glue and EMR using Python and PySpark; ingested data from S3, Oracle, MySQL, and SFTP.
+•	Built DBT models with SCD Type 1 & 2 logic in PostgreSQL; improved historical data integrity and reduced downstream issues.
+•	Implemented advanced Spark optimizations (partitioning, bucketing, predicate pushdown), reducing ETL runtime from 2.5 hours to 30 minutes.
+•	Developed Airflow DAGs and parameterized Redshift schemas integrated with DataGo, enabling sub-second dashboard refreshes.
+•	Migrated sensitive financial datasets securely, enforced data quality with schema validations and SQL-based automated tests.
+Airflow Pipeline Migration & Genie+ Framework Optimization: TCS (Client: Singapore Airlines) - Dec 2023 – Feb 2025
+•	Migrated 7 critical pipelines into Genie+ Airflow framework using Medallion Architecture with DBT, PySpark, and modular SQL.
+•	Built 3 DBT models in Redshift to transform Bronze-layer data, cutting defects by 25% and accelerating availability.
+•	Executed seamless 12B+ record migration with zero data loss; optimized DAGs, resource configs, improving throughput by 30%.
+•	Standardized config management via runtime Airflow variables, reducing setup effort by 40% and simplifying deployments under tight SLAs.
+Dashboard Development and Business Insights: Aditadv Tech - Jan 2023 – Mar 2023
+•	Created interactive Zoho Analytics dashboards tracking churn rate by segment and region, enabling retention strategy alignment.
+•	Partnered with business leads to define churn KPIs and delivered real-time filters, shortening decision cycles by 40%.
+Big Data Pipeline Development: Flex – Oct 2021 – Nov 2022
+•	Migrated 2B+ BAAN ERP records into Redshift using Glue, PySpark, and S3 (Parquet) with zero data loss.
+•	Automated delta ingestion using AWS Lambda and EventBridge; reduced refresh latency from 24 hrs to 1.5 hrs.
+•	Embedded Python-based validations for counts and null checks, achieving 99.5% data accuracy and eliminating manual checks.
+Supply Chain Analytics Dashboard & Validation: Flex - Jan 2020 – Oct 2021
+•	Developed Power BI dashboards for inventory and logistics KPIs, improving efficiency by 12%.
+•	Integrated S3 data lakes, PostgreSQL, and ERP systems into predictive models that saved 15% in costs.
+•	Implemented Kafka-streaming alerts during COVID-19 to monitor shortages, cutting response times by 60%.
+EDUCATION
+Post Graduation Program | Data Science and Engineering | Great Lakes Institute of Management (2021-2022)
+Bachelor of Engineering | Mechanical Engineering | University of Mumbai (2015-2019)
+CERTIFICATIONS & AWARDS
+•	Generative AI Developer Associate – Udemy (2025)
+•	Cutshort Certified Python – Advanced (2022)
+•	Python Data Structures – University of Michigan (2022)
+•	Tata Consultancy Services: On the Spot Award (2025); Xcelerate Warrior (2025)
+•	Flex: Platinum Award (2022); Power Platform Citizen Developer (2021); Best Team Award (2021); Pat on Back Award (2020)
+LEADERSHIP & VOLUNTEER
+•	Led cross-functional teams to execute critical data migration initiatives, ensuring seamless transitions with zero downtime.
+•	Championed process improvement projects that enhanced operational efficiency, compliance, and documentation standards.
+•	Contributed to organizational audits and town halls by updating Standard Operating Procedures (SOPs) and conducting Failure Mode and Effects Analysis (FMEA).
+•	Designed and implemented employee engagement programs that strengthened team collaboration, morale, and retention.
+•	Conducted cross-functional training sessions on data engineering best practices, accelerating onboarding and capability development.

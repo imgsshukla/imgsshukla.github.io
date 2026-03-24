@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Shukla - Data Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">GS</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">I'm <span class="highlight">Gaurav Shukla</span></h1>
+                <p class="hero-subtitle">Data Engineer | ETL Architect | Cloud Specialist</p>
+                <p class="hero-description">Transforming raw data into actionable insights with 6+ years of expertise in designing scalable data platforms on AWS, Databricks, and Apache Airflow.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">6+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Data Pipelines Built</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">1TB+</div>
+                    <div class="stat-label">Daily Data Processed</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Crafting data solutions that drive business impact</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Agentic AI Microservices Architecture</h3>
+                        <span class="project-company">Wipro (Client: UBS)</span>
+                    </div>
+                    <p class="project-description">Developing foundational backend services using FastAPI and LangGraph for autonomous AI agents to interact with complex banking data.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">Databricks</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>Backend services with FastAPI and LangGraph</li>
+                        <li>Gen AI integration with Databricks & PostgreSQL</li>
+                        <li>Azure-hosted agent-driven automation</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ETL Pipeline Optimization</h3>
+                        <span class="project-company">TCS (Client: Singapore Airlines)</span>
+                    </div>
+                    <p class="project-description">Designed and optimized 15+ high-performance batch and streaming ETL pipelines, achieving 40% throughput improvement.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PySpark</span>
+                        <span class="tech-tag">AWS EMR</span>
+                        <span class="tech-tag">Airflow</span>
+                        <span class="tech-tag">Redshift</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>Optimized Spark pipelines (2.5hrs → 30mins)</li>
+                        <li>40% ingestion throughput boost</li>
+                        <li>30% storage cost reduction</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Streaming Data Architecture</h3>
+                        <span class="project-company">TCS (Client: Singapore Airlines)</span>
+                    </div>
+                    <p class="project-description">Engineered real-time streaming architecture ingesting 1TB+ daily into Amazon Redshift with sub-second latency.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">Spark Streaming</span>
+                        <span class="tech-tag">AWS EMR</span>
+                        <span class="tech-tag">Tableau</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>1TB+ daily ingestion with sub-second latency</li>
+                        <li>Live Tableau dashboards for operations</li>
+                        <li>99%+ data accuracy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <p class="section-subtitle">From analyst to senior data engineer</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-date">Jan 2026 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Senior Software Engineer</h3>
+                        <p class="company">Wipro Limited – Client: UBS</p>
+                        <p>Designing scalable microservices using Python and FastAPI for enterprise banking applications. Implementing Gen AI solutions with LangChain for data workflow automation.</p>
+                        <div class="timeline-tags">
+                            <span>FastAPI</span>
+                            <span>LangChain</span>
+                            <span>Azure</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-date">Jun 2023 - Jan 2026</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Data Engineer</h3>
+                        <p class="company">Tata Consultancy Services (TCS) – Client: Singapore Airlines</p>
+                        <p>Designed end-to-end ETL pipelines on AWS EMR and Glue. Architected Apache Airflow DAGs with Jenkins deployment. Engineered streaming architecture with Kafka and Spark.</p>
+                        <div class="timeline-tags">
+                            <span>PySpark</span>
+                            <span>AWS EMR</span>
+                            <span>Apache Airflow</span>
+                            <span>Redshift</span>
+                            <span>DBT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-date">Jan 2023 - Mar 2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Business Operations Analyst</h3>
+                        <p class="company">Aditadv Tech Pvt Ltd</p>
+                        <p>Designed interactive churn-rate dashboards in Zoho Analytics. Built and monitored ETL pipelines in Azure with 99%+ data accuracy. Partnered with C-level executives on KPI reporting.</p>
+                        <div class="timeline-tags">
+                            <span>Azure</span>
+                            <span>Zoho Analytics</span>
+                            <span>ETL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-date">Jan 2020 - Nov 2022</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Analytics Engineer</h3>
+                        <p class="company">Flex India – Client: Nokia</p>
+                        <p>Engineered end-to-end ETL pipelines migrating 2B+ records from BAAN ERP into Amazon Redshift. Automated data ingestion via Lambda and Glue, reducing manual effort by 40%.</p>
+                        <div class="timeline-tags">
+                            <span>AWS Glue</span>
+                            <span>Lambda</span>
+                            <span>Redshift</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <p class="section-subtitle">Specialized expertise in data engineering and cloud architecture</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Pipeline Design</h3>
+                    <p>Building scalable ETL/ELT pipelines with PySpark, AWS Glue, and Apache Airflow for high-volume data processing.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Architecture</h3>
+                    <p>Designing robust data solutions on AWS using EMR, S3, Redshift, and serverless technologies for optimal scalability.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-stream"></i>
+                    </div>
+                    <h3>Streaming & Real-Time</h3>
+                    <p>Engineering low-latency streaming architectures with Kafka, Spark Structured Streaming, and real-time dashboards.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data Quality & Orchestration</h3>
+                    <p>Implementing automated data quality frameworks and orchestrating complex workflows with Airflow and DBT.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>GenAI & LLM Integration</h3>
+                    <p>Leveraging LangChain and LLM models for Prompt-to-SQL interfaces and intelligent data automation solutions.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>Developing backend services with Python, FastAPI, and modern frameworks. Expertise in CI/CD and DevOps practices.</p>
+                </div>
+            </div>
+
+            <div class="tech-stack">
+                <h3>Technology Stack</h3>
+                <div class="tech-grid">
+                    <div class="tech-category">
+                        <h4>Languages</h4>
+                        <p>Python, PySpark, SQL</p>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Data Platforms</h4>
+                        <p>Hadoop, Spark, Databricks, DBT</p>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Orchestration</h4>
+                        <p>Apache Airflow, Jenkins, CI/CD</p>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Cloud & Storage</h4>
+                        <p>AWS (EMR, S3, Glue, Kinesis, Redshift), Azure</p>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Databases</h4>
+                        <p>Redshift, PostgreSQL, Oracle, MySQL</p>
+                    </div>
+                    <div class="tech-category">
+                        <h4>BI & Visualization</h4>
+                        <p>Tableau, Power BI, Zoho Analytics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm a results-driven Data Engineer with 6+ years of hands-on expertise in designing and operating end-to-end data platforms. My journey began with a passion for solving complex data problems, and it has evolved into a deep expertise in building scalable, high-performance data solutions.</p>
+                    
+                    <p>I specialize in architecting data pipelines that handle massive volumes—from my work processing 1TB+ daily at Singapore Airlines to migrating 2B+ records for Nokia. My technical foundation is built on PySpark, Hadoop, and AWS ecosystems, with growing expertise in Databricks and modern data stack tools like DBT.</p>
+                    
+                    <p>What excites me most is the intersection of data engineering and artificial intelligence. I've been pioneering GenAI-powered solutions, including Prompt-to-SQL interfaces that cut ad-hoc query turnaround time in half, and now developing agentic AI microservices for financial applications.</p>
+                    
+                    <p>Beyond technical skills, I'm passionate about mentoring teams, establishing data quality standards, and translating business requirements into robust data architectures. I believe great data platforms are built on collaboration, continuous learning, and obsession with optimization.</p>
+
+                    <h3 class="about-highlight">Key Achievements</h3>
+                    <ul class="about-list">
+                        <li>40% boost in ETL ingestion throughput through advanced Spark optimizations</li>
+                        <li>60% reduction in pipeline release time with CI/CD automation</li>
+                        <li>30% storage cost savings through intelligent data migration strategies</li>
+                        <li>99%+ data accuracy across complex, multi-source integrations</li>
+                        <li>Zero-downtime deployments for critical financial data systems</li>
+                        <li>Led GenAI initiatives that halved ad-hoc query turnaround time</li>
+                    </ul>
+                </div>
+                <div class="about-sidebar">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Post Graduation Program</h4>
+                        <p class="education-detail">Data Science and Engineering</p>
+                        <p class="education-detail">Great Lakes Institute of Management</p>
+                        <p class="education-date">2021-2022</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Bachelor of Engineering</h4>
+                        <p class="education-detail">Mechanical Engineering</p>
+                        <p class="education-detail">University of Mumbai</p>
+                        <p class="education-date">2015-2019</p>
+                    </div>
+
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li>Generative AI Developer Associate (Udemy, 2025)</li>
+                        <li>Cutshort Certified Python – Advanced (2022)</li>
+                        <li>Python Data Structures (University of Michigan, 2022)</li>
+                    </ul>
+
+                    <h3>Awards</h3>
+                    <ul class="awards-list">
+                        <li>TCS On the Spot Award (2025)</li>
+                        <li>TCS Xcelerate Warrior (2025)</li>
+                        <li>Flex Platinum Award (2022)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">I'm available for interesting projects and opportunities</p>
+            
+            <div class="contact-content">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:imgsshukla@gmail.com">imgsshukla@gmail.com</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+918080545470">+91-8080545470</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Pune, India</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/imgauravs" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Gaurav Shukla. All rights reserved.</p>
+            <p>Crafted with passion for data engineering excellence</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
