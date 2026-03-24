@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gaurav Shukla - Data Engineer Portfolio
 
 Welcome to my professional portfolio website! This is a modern, responsive portfolio built with HTML, CSS, and JavaScript, designed to showcase my experience as a Data Engineer with expertise in building scalable data platforms.
@@ -186,3 +187,7 @@ Feel free to fork and improve this template. Pull requests are welcome!
 **Last Updated**: March 2026
 
 © 2026 Gaurav Shukla. All rights reserved.
+=======
+# imgsshukla.github.io
+My Website Files
+>>>>>>> 1c45e3591a4cc74dafa3ed19581757b0dd61d8dd
